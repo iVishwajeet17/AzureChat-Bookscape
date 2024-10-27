@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(Banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.signUpForm{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,.3);
+    background: #fff;
+    padding: 20px;
+    margin: 6% auto 0;
+    text-align: center;
+}
+.signup-btn{
+    background-color: #1c8adb;
+}
+.google-btn{
+    background-color: #21afde;
+}
+/* .signup-btn:hover{
+    background: var(--green);
+}  */
+.signUpForm h1{
+    color: #1c8adb;
+    margin-bottom: 30px;
+
+}
+.input-box{
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 89%;
+    border: 1px solid #999;
+    outline: none;
+}
+button{
+    color: #fff;
+    width: 80%;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+.or{
+    background: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+img{
+    width: 60px;
+    margin-top: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:991px){
+    html{
+        font-size: 85%;
+    }
+    body{
+        padding-bottom: 1rem;;
+    }
+    .signUpForm{
+        padding: 2rem;
+        padding-top: 10rem;
+        display: block;
+        max-width: 100%;
+    }
+    .signUpForm h1
+
+    .signup-btn{
+        display: inline-block;
+    }
+}
+
+
+@media (max-width:768px){
+    html{
+        scroll-padding-top: 0;
+
+    }
+    body{
+        padding-bottom: 1rem;;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+    
+}
